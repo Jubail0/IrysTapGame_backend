@@ -1,0 +1,30 @@
+import express from "express";
+import dotenv from "dotenv";
+import cors from "cors";
+import connectDB from "./config/db.js";
+import nftRoutes from "./routes/nftRoutes.js";
+import gameRoutes from "./routes/gameRoutes.js";
+import profileRoutes from "./routes/profileRoutes.js";
+import publicRoutes from "./routes/publicRoutes.js";
+import authRoutes from "./routes/authRoutes.js";
+import bodyParser from "body-parser";
+
+dotenv.config();
+await connectDB();
+
+const app = express();
+app.use(cors({
+  origin: process.env.FRONT_END_URL,
+  credentials: true
+}));
+app.use(express.json());
+app.use(bodyParser.json());
+
+app.use("/api/auth", authRoutes);
+app.use("/api/nft", nftRoutes);
+app.use("/api/game", gameRoutes);
+app.use("/api/profile", profileRoutes);
+app.use("/api/public", publicRoutes);
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on ${PORT}`));

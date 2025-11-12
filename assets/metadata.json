@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Spark",
+    "description": "A tiny ember flickering in darkness. The first whisper of flame’s potential.",
+    "attributes": [
+      {
+        "trait_type": "Stage",
+        "value": 1
+      },
+      {
+        "trait_type": "Tier",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Flame Colors",
+        "value": "Red, Yellow"
+      }
+    ],
+    "image":"https://uploader.irys.xyz/7VTcTZGZcEJ3u64rFHhr176rac2AMG9g8noEUgB6om73"
+  },
+  {
+    "name": "Flame Wisp",
+    "description": "Takes the form of a small flying flame spirit, growing brighter and more alive. Represents the first movement of true fire.",
+    "attributes": [
+      {
+        "trait_type": "Stage",
+        "value": 2
+      },
+      {
+        "trait_type": "Tier",
+        "value": "Uncommon"
+      },
+      {
+        "trait_type": "Flame Colors",
+        "value": "Orange, Deep Red"
+      }
+    ],
+    "image":"https://uploader.irys.xyz/7UcCEqp3JP9KpTa8TfeGo35rdxo2gTD4wgtGAMtWuvH9"
+  },
+  {
+    "name": "Inferno Bird",
+    "description": "Feathers blaze with intense heat, a fiery creature embodying strength and passion. Commands simple flames with purpose.",
+    "attributes": [
+      {
+        "trait_type": "Stage",
+        "value": 3
+      },
+      {
+        "trait_type": "Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Flame Colors",
+        "value": "Orange, Deep Red, Blackened Smoke"
+      }
+    ],
+    "image":"https://uploader.irys.xyz/Hixf8bQnqkfGW3x3uU6YjerGwzhQH1GdMiaKXeDXyJSh"
+  },
+  {
+    "name": "Solar Phoenix",
+    "description": "Rises radiant, wings of pure flame. The ultimate embodiment of celestial fire and rebirth, shining with solar brilliance.",
+    "attributes": [
+      {
+        "trait_type": "Stage",
+        "value": 4
+      },
+      {
+        "trait_type": "Tier",
+        "value": "Legendary"
+      },
+      {
+        "trait_type": "Flame Colors",
+        "value": "Purple, Orange, Yellow, Golden Glow"
+      }
+    ], 
+    "image":"https://uploader.irys.xyz/6D7WrxU21jvpBypMfmzCm1L6ye8qjQ1zhzbyDLNMjt41"
+  }
+]
