@@ -104,10 +104,10 @@ export const evolveOffchain = async (req, res) => {
 
     // Stage tracking: 1 → 4
     const currentStage = user.nftStage || 1;
-    const bestScore = user.bestScore || 0;
+    const bestScore = user.totalScore || 0;
 
     // Define thresholds for evolving to next stages
-    const thresholds = [150, 200, 220]; // Stage 1→2, 2→3, 3→4
+    const thresholds = [1000, 5000, 10000]; // Stage 1→2, 2→3, 3→4
 
     if (currentStage >= 4) {
       return res.status(200).json({
