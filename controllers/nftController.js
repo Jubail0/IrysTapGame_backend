@@ -107,7 +107,7 @@ export const evolveOffchain = async (req, res) => {
     const bestScore = user.totalScore || 0;
 
     // Define thresholds for evolving to next stages
-    const thresholds = [1000, 5000, 10000]; // Stage 1→2, 2→3, 3→4
+    const thresholds = [8000,15000,25000]; // Stage 1→2, 2→3, 3→4
 
     if (currentStage >= 4) {
       return res.status(200).json({
