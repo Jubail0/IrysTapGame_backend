@@ -21,7 +21,6 @@ export async function uploadJSON(metadata, tags = []) {
   const payload = JSON.stringify(metadata);
   const result = await uploader.upload(payload, { tags });
   const uri = `https://gateway.irys.xyz/mutable/${result.id}`;
-  console.log("📦 JSON uploaded:", uri);
   return { id: result.id, uri };
 }
 
