@@ -14,7 +14,7 @@ await connectDB();
 
 const app = express();
 app.use(cors({
-  origin: process.env.FRONT_END_URL,
+  origin: process.env.FRONT_END_URL ||"https://tap-royale-backend.onrender.com" ,
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
